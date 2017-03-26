@@ -1,0 +1,14 @@
+.cb-slideshow,
+.cb-slideshow:after{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index:0;
+}
+
+.cb-slideshow:after{
+    content: '';
+    background: transparent url(../images/160927210830-tk-ah0927-exlarge-169.jpg);
+}
