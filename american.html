@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>American pop game</title>
+        <link rel="stylesheet" href="styleAPop.css" type="text/css" />
+        <style>
+            body{
+                background:url("http://metrouk2.files.wordpress.com/2012/12/article-1354383342755-16263c30000005dc-565586_636x499.jpg");
+                background-repeat:no-repeat;
+                background-size:cover;
+                color: white;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Guess the American Pop Song!</h1>
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="mainAPop.js"></script>
+
+
+        <form action="gradeAPop.php" method="post" id="quiz">
+            
+            <h3>What song is this?</h3>
+            <button id="TaylorSwift22">PlaySong1</button>
+            <div> 
+                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                <label for="question-1-answers-A">A) I like pie </label>
+            </div>
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                <label for="question-1-answers-B">B) I like donuts </label>
+            </div>
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                <label for="question-1-answers-C">C) I like waffles </label>
+            </div>
+            
+            <div>
+                <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                <label for="question-1-answers-D">D) I like pancakes </label>
+            </div>
+            
+
+            <h3>What song is this?</h3>
+            <button id="TaylorSwift22">PlaySong2</button>
+            <div> 
+                <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+                <label for="question-2-answers-A">A) I like pie </label>
+                
+            </div>
+            
+            <div>
+                <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+                <label for="question-2-answers-B">B) I like donuts </label>
+            </div>
+            
+            <div>
+                <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+                <label for="question-2-answers-C">C) I like waffles </label>
+            </div>
+            
+            <div>
+                <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+                <label for="question-2-answers-D">D) I like pancakes </label>
+            </div>
+        
+
+            <h3>What is this song?</h3>
+            <button id="TaylorSwift22">PlaySong3</button>
+            <div>
+                <input type = "radio" name = "question-3-answers" if = "question-3-answers-A" value = "A"/>
+                <label for = "question-3-answers-A">A) I like pie </label>
+            </div>
+            
+            <div>
+                <input type = "radio" name = "question-3-answers" if = "question-3-answers-B" value = "B"/>
+                <label for = "question-3-answers-B">B) I like donuts </label>
+            </div>
+            
+            <div>
+                <input type = "radio" name = "question-3-answers" if = "question-3-answers-C" value = "C"/>
+                <label for = "question-3-answers-C">C) I like waffles </label>
+            </div>
+            
+            <div>
+                <input type = "radio" name = "question-3-answers" if = "question-3-answers-D" value = "D"/>
+                <label for = "question-3-answers-D">D) I like pancakes </label>
+            </div>
+            
+            <input type = "submit" value = "Submit Answers" />
+            
+            
+        </form>
+        
+    </body>
+    
+</html>
